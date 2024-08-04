@@ -1,0 +1,48 @@
+<%- include("partials/header") %>
+<<<<<<< HEAD
+    <div class="table-container">
+=======
+    <div class="table-conainer">
+>>>>>>> 793aa87c17fb94ae9e30bccff183e2044c46859a
+        <h2 class="todo-title">Update todo</h2>
+
+        <div>
+            <a class="btn" href="/">Back</a>
+
+<<<<<<< HEAD
+            <form action="/update-todo" method="POST">
+                <input type="hidden" name="id" value="<%= todo._id %>"> <!-- Hidden field to pass the id -->
+                <div class="update-todo">
+                    <div class="form-group">
+                        <label for="title" class="text-light">Title</label>
+                        <input type="text" name="title" value="<%= todo.title %>" placeholder="type todo here" />
+                    </div>
+                    <div class="form-group">
+                        <label for="desc" class="text-light">Desc</label>
+                        <input type="text" name="desc" value="<%= todo.desc %>" placeholder="type Description here" />
+=======
+            <form action="">
+                <div class="update-todo">
+                    <div class="form-group">
+                        <label for="title" class="text-light">Title</label>
+                        <input type="text" name="title" value="" placeholder="type todo here" />
+                    </div>
+                    <div class="form-group">
+                        <label for="desc" class="text-light">Desc</label>
+                        <input type="text" name="desc" value="" placeholder="type Descriptionere" />
+>>>>>>> 793aa87c17fb94ae9e30bccff183e2044c46859a
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn">Save</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+<<<<<<< HEAD
+    </body>
+
+    </html>
+=======
+    <%- include("partials/footer") %>
+>>>>>>> 793aa87c17fb94ae9e30bccff183e2044c46859a
